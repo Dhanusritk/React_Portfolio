@@ -1,0 +1,42 @@
+.contact{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px 0 100px;
+    align-items: center;
+}
+.contact__container{
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contact__container >p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.contact__container >p >span{
+    background: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.contact__icons >a >button >span > .MuiSvgIcon-root{
+    color: white;
+    font-size: 30px;
+
+
+
+}
+.contact__icons >a  >.MuiIconButton-root {
+    color: white !important;
+
+}
+
